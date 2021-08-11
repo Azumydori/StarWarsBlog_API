@@ -36,7 +36,7 @@ class Planet(Base):
     # Here we define columns for the table person
     # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
-    name = Column(String, nullable=False)
+    name = Column(String, nullable=True)
     rotation_period = Column(String, nullable=False)
     orbital_period = Column(String, nullable=False)
     diameter = Column  (String, nullable=False)
